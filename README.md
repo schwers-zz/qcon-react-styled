@@ -6,10 +6,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Thie project is intended to teach the following:
 
 - Overview of React Components
+  - Rendering Elements
   - Event Handlers
   - Internal State and Updating UI
-  - Encapsulating Functionality
-  - Higher Order Components
 
 - Basic Styling with styled-components
   - Introduction to api and tagged-template literals

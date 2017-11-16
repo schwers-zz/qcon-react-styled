@@ -8,7 +8,7 @@ import React from 'react';
  *   - Class Components
  *   - Component State
  *   - Event Handling
- *
+*
  * For this example, we'll make a basic component that
  * has a button, and display of the current count.
  * Clicking the button increases the count
@@ -87,7 +87,7 @@ export const ScoreExample = props => (
  * and event Handlers:
  */
 
-export class ClickableCounter extends React.Component {
+export class CounterButton extends React.Component {
   constructor(props) {
     super(props);
 
@@ -146,3 +146,14 @@ export class ClickableCounter extends React.Component {
     );
   }
 }
+
+/**
+ * All right, now its your turn! Here's a basic react component that will
+ * automatically render on the page. Feel free to try adding some components
+ */
+
+export const YourFirstReactComponent = () => (
+  <div>
+    Your first React Component goes here
+  </div>
+);
