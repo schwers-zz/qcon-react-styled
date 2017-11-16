@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import {
@@ -10,14 +9,19 @@ import {
 
 import ItemList from './components/ItemList';
 
-// TODO - swawp to styled-components
+import {
+  ButtonsDemo,
+  Demo,
+  FlexDemo
+} from './components/StyledDemo';
+
+// TODO - swap to styled-components
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Intro to React and Styled-Components</h1>
         </header>
         <p className="App-intro">
@@ -31,20 +35,42 @@ class App extends Component {
           <br />
           Each file contains some high level notes and instructions that we'll review. Some will ask you to fill in components or add styles on your own. Your work will automatically reload and appear here.
         </p>
-        <p className="App-intro">
-          To start learning react, visit <code>src/components/CounterButton/index.js</code>
-        </p>
+
+
+        <div>
+          <h2>
+            React Overview
+          </h2>
+          To start learning <code>react</code>, visit <code>src/components/CounterButton/index.js</code>
+        </div>
+        <br />
         <ScoreExample />
         <br />
         <CounterButton />
         <br />
         <YourFirstReactComponent />
         <p className="App-intro">
-          Now it your turn! checkout <code>src/components/ItemList/index.jsx</code>
+          Now it's your turn! checkout <code>src/components/ItemList/index.jsx</code>
           <br />
           <br />
           <ItemList />
         </p>
+
+
+        <div>
+          <h2>
+            Basics of <code>styled-components</code>
+          </h2>
+            To Start learning <code>styled-components</code>, visit <code>src/components/StyledDemo/index.jsx</code>
+        </div>
+        <br />
+        <Demo />
+        <br />
+        <br />
+        <ButtonsDemo />
+        <br />
+        <br />
+        <FlexDemo />
       </div>
     );
   }
