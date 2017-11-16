@@ -1,7 +1,7 @@
 export default {
-  backgroundColor: 'aquamarine',
+  backgroundColor: 'darkturquoise',
   buttonBorderRadius: 3,
-  color: 'antiquewhite',
+  color: 'mintcream',
   fontSize: 1.3,
   highlight: 'darkorchid',
   lowlight: 'darkslategrey',
