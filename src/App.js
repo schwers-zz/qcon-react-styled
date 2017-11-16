@@ -12,7 +12,8 @@ import ItemList from './components/ItemList';
 import {
   ButtonsDemo,
   Demo,
-  FlexDemo
+  FlexDemo,
+  YourFirstStyledComponents,
 } from './components/StyledDemo';
 
 // TODO - swap to styled-components
@@ -71,6 +72,9 @@ class App extends Component {
         <br />
         <br />
         <FlexDemo />
+        <br />
+        <br />
+        <YourFirstStyledComponents />
       </div>
     );
   }

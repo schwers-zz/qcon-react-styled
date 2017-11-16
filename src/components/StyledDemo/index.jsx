@@ -135,17 +135,23 @@ export const FlexRow = styled.div`
   flex-wrap: ${ props => props.wrapped && 'wrap' };
 
   justify-content: ${ props => {
-      switch (props.justify) {
-        case 'start': return 'flex-start';
-        case 'end': return 'flex-end';
-        case 'center': return 'center';
-        case 'between': return 'space-between';
-        case 'around': return 'space-around';
-        default: return 'space-evenly';
-      }
+    switch (props.justify) {
+      case 'start': return 'flex-start';
+      case 'end': return 'flex-end';
+      case 'center': return 'center';
+      case 'between': return 'space-between';
+      case 'around': return 'space-around';
+      default: return 'space-evenly';
+    }
   }};
 `;
 
+/**
+ * Shows off how easy it is to build different layouts
+ * with styled-components. Try changing different
+ * properties from the above and see what you get!
+ * You can also modify `boxes` to have more or less items
+ */
 export const FlexDemo = () => (
   <div>
     <Wrapper>
@@ -161,6 +167,15 @@ export const FlexDemo = () => (
       </FlexRow>
     </Wrapper>
   </div>
-)
+);
 
 
+/**
+ * Now that you've seen the basics, try making some components
+ */
+
+ export const YourFirstStyledComponents = () => (
+   <Wrapper>
+     Try styling this
+   </Wrapper>
+ )
