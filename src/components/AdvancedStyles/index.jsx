@@ -183,6 +183,7 @@ export const CSSSharingDemo = () => (
  * Let's make a simple demo of this by making our buttons
  * have a box-shadow when we hover anywhere on the wrapper.
  * Let's also adjust the `Title`
+ *
  */
 
 export const HoverableWrapper = styled(Wrapper)`
@@ -197,14 +198,14 @@ export const HoverableWrapper = styled(Wrapper)`
 
   &:hover {
     ${ Button } {
-      box-shadow: 3px 3px 5px 6px ${ props => props.theme.lowlight };
+      box-shadow: 2px 2px 2px 2px ${ props => props.theme.lowlight };
     }
   }
 `;
 
 export const NestedSelectorsDemo = () => (
   <ThemeProvider theme={ Theme }>
-    <Wrapper>
+    <HoverableWrapper>
       <Title>
         Styled-Component as Selectors
       </Title>
@@ -217,6 +218,6 @@ export const NestedSelectorsDemo = () => (
           Cool Box-Shadow
         </Button>
       </div>
-    </Wrapper>
+    </HoverableWrapper>
   </ThemeProvider>
 );
