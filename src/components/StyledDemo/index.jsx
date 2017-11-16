@@ -60,7 +60,7 @@ const Button = styled.button`
   color: palevioletred;
   border: 2px solid palevioletred;
 
-  ${ props => props.primary && `
+  ${ props => props.primary && css`
     background: palevioletred;
     color: white;
   `}
@@ -179,4 +179,3 @@ export const FlexDemo = () => (
      Try styling this
    </Wrapper>
  );
- 

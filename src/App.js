@@ -16,6 +16,12 @@ import {
   YourFirstStyledComponents,
 } from './components/StyledDemo';
 
+import {
+  CSSSharingDemo,
+  NestedSelectorsDemo,
+  ThemeDemo,
+} from './components/AdvancedStyles';
+
 // TODO - swap to styled-components
 
 class App extends Component {
@@ -62,7 +68,7 @@ class App extends Component {
           <h2>
             Basics of <code>styled-components</code>
           </h2>
-            To Start learning <code>styled-components</code>, visit <code>src/components/StyledDemo/index.jsx</code>
+            To start learning <code>styled-components</code>, visit <code>src/components/StyledDemo/index.jsx</code>
         </div>
         <br />
         <Demo />
@@ -75,6 +81,21 @@ class App extends Component {
         <br />
         <br />
         <YourFirstStyledComponents />
+
+        <div>
+          <h2>
+            Advanced <code>styled-components</code>
+          </h2>
+            Learn more about themeing and style-sharing in <code>styled-components</code>, visit <code>src/components/AdvancedStyles/index.jsx</code>
+        </div>
+        <br />
+        <ThemeDemo />
+        <br />
+        <br />
+        <CSSSharingDemo />
+        <br />
+        <br />
+        <NestedSelectorsDemo />
       </div>
     );
   }
