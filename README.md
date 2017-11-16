@@ -1,9 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-Thie project is intended to teach the following:
+This project is intended to teach the following:
 
 - Overview of React Components
   - Rendering Elements
@@ -24,6 +19,40 @@ Thie project is intended to teach the following:
   - Sharing styles with `css`
   - Applying and Adjusting styles with `styled`
   - Nested Selectors
+
+
+## To get started, you'll need:
+
+### Requirements
+  - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - [node version 6 or higher](https://nodejs.org/en/download/package-manager/)
+  - [yarn version 0.23+](https://yarnpkg.com/lang/en/docs/install/) or  npm version 3.10+ (included with node)
+    - yarn is preferred. This repo has a yarn offline
+      cached checked-in. This means you can run `yarn --offline`
+      and get started faster.
+  - a text editor or IDE
+  - Chrome
+  - [react-dev tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) recommended for debugging
+
+
+### Installing
+  - clone this repo from github, ssh into the project directory
+  - if you have `yarn`, run `yarn --offline` (faster)
+    - or if you have npm, run `npm install`
+  - run `yarn start` or `npm run start`
+    - your application will build and autmatically open a webserver and browser tab.
+  - Thats it! This project comes with autmatic page reloading on save. I recommend keeping your browser open on 1/2 of the screen, and your editor on the other.
+
+
+
+
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+Below you will find some information on how to perform common tasks.<br>
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 
 
