@@ -50,6 +50,25 @@ This project is intended to teach the following:
   - Thats it! This project comes with autmatic page reloading on save. I recommend keeping your browser open on 1/2 of the screen, and your editor on the other.
 
 
+### Other Resources
+
+Some of the examples you'll see in the presentation are actually
+from the documentation for react and styled-components. This
+is very intentional -- their documentation is great and
+I hope to familiarze you with it, to better prepare you for
+working with these frameworks.
+
+Here's a collection of useful links that I think will help out
+
+- [react intro documentation](https://reactjs.org/docs/installation.html)
+- [react state and lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+- [babel repl, try out react and see the compiled result](https://babeljs.io/repl/)
+- [create-react-app, great for experimenting, and making apps](https://github.com/facebookincubator/create-react-app)
+
+- [styled-components basics](https://www.styled-components.com/docs/basics)
+- [the magic of tagged template literals](https://mxstbr.blog/2016/11/styled-components-magic-explained/)
+- [styled-components advanced](https://www.styled-components.com/docs/advanced)
+- [guides to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 
 
