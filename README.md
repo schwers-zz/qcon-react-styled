@@ -1,5 +1,8 @@
 This project is intended to teach the following:
 
+[Slides from the presentation](https://docs.google.com/presentation/d/1bKaazVkIYXpNVbtHdqYcZyyQHu0lAWqt4Y9iCE0kiL0/edit?usp=sharing)
+
+
 - Overview of React Components
   - Syntax basics
   - Rendering Elements
