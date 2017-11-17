@@ -1,9 +1,12 @@
 This project is intended to teach the following:
 
 - Overview of React Components
+  - Syntax basics
   - Rendering Elements
-  - Event Handlers
-  - Internal State and Updating UI
+  - Props
+  - State and Event Handlers
+  - Forms
+  - Component Oriented Phillosphy
 
 - Basic Styling with styled-components
   - Introduction to api and tagged-template literals
